@@ -1,0 +1,17 @@
+p,
+div {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.wazny {
+	color: red;
+}
+
+#superwazny {
+	color: blue;
+}
+
+p.wazny span {
+	color: yellow;
+}
