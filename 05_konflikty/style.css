@@ -1,0 +1,17 @@
+@import url('importme.css');
+
+#sophie {
+	background-color: deeppink;
+}
+
+body div#sophie {
+	background-color: pink;
+}
+
+div.duck {
+	background-color: black;
+}
+
+.duck {
+	background-color: yellow;
+}
