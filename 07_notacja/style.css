@@ -1,0 +1,13 @@
+div {
+	width: 200px;
+	height: 100px;
+	/* border-bottom: 10px solid red; */
+	border: 1px dotted blue;
+	/* margin: 10px 20px 40px 60px; */
+	/* margin: 20px 40px; */
+	margin: 20px auto;
+}
+
+.drugi {
+	margin: -20px auto;
+}
