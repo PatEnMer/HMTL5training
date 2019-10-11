@@ -1,0 +1,15 @@
+@import url(importme.css);
+
+html {
+	font-size: 62.5%;
+}
+/* powyżej to wartość 10 px dla przeglądarek, które domyślnie mają font-size: 16px */
+
+p {
+	font-size: 2.5rem;
+	padding: 2rem;
+}
+/* do korztstania są: 
+% - głównie
+px - jeśli nie ma innej możliwości
+rem - ze względu na uproszczone przeliczenia */
