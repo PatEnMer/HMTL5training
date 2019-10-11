@@ -1,0 +1,28 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: lightseagreen;
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Tahoma', sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	font-style: oblique;
+	text-decoration: overline;
+}
+
+p {
+	font: italic 2rem 'Tahoma';
+	/* text-shadow: 10px 8px 33px rgba(0, 0, 0, 1); */
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+	/* line-height: 1.6; */
+	/* zalecane 1.5 lub 1.6. do sprawdzania polecany jest gridlover.net */
+	/* text-indent: 2em;
+	font-kerning: normal;
+	text-align: left;
+	text-transform: capitalize; */
+}
