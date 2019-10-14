@@ -1,0 +1,15 @@
+/* section {
+	background-image: url('../01_podstawy/pexels-photo-2972365.jpeg');
+	height: 300px;
+	width: 400px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-color: aqua;
+} */
+
+section {
+	height: 300px;
+	width: 400px;
+	background: aqua url('../01_podstawy/pexels-photo-2972365.jpeg') no-repeat center center;
+}
