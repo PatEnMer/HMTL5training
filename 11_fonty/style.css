@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Kaushan';
+	src: url('KaushanScript-Regular.otf');
+}
+
+body {
+	font-family: 'Kaushan';
+}
