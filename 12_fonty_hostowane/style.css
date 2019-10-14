@@ -1,0 +1,17 @@
+body {
+	background-color: aqua;
+	color: brown;
+	font-family: 'Arial';
+	font-weight: bold;
+}
+
+p {
+	font-family: 'Mansalva', cursive;
+}
+
+.utopia-std-headline {
+	font-family: utopia-std-headline, serif;
+	font-weight: 400;
+	font-style: normal;
+}
+/* trzeba pamiętać by przy hostownaiu fontów aznaczać latin extendet - polskie znaki */
