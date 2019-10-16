@@ -1,0 +1,34 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	background: #2196f2;
+	height: 150px;
+}
+
+section {
+	background: #ffc108;
+	height: 450px;
+	width: 400px;
+	float: left;
+}
+
+aside {
+	background: #8bc34b;
+	height: 450px;
+	width: 600px;
+	float: right;
+}
+
+footer {
+	background: #607d8a;
+	height: 150px;
+	clear: both;
+}
