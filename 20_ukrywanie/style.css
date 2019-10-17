@@ -1,0 +1,49 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	background: green;
+	height: 100px;
+	float: left;
+	margin: 1%;
+	text-indent: -99999px; /* ostroznie z wykorzystaniem tej techniki - może spowodować probelmy z pozycjonowaniem */
+}
+
+#sek1 div {
+	width: 98%;
+}
+
+#sek2 div {
+	width: 48%;
+}
+
+#sek3 div {
+	width: 31.33333333%;
+}
+
+@media all and (max-width: 360px) {
+	div {
+		background-color: lightgreen;
+	}
+
+	#sek2 {
+		display: none;
+		/* visibility: hidden; */
+	}
+
+	#sek3 div {
+		width: 98%;
+	}
+}
+
+@media all and (min-width: 361px) and (max-width: 768px) {
+	div {
+		background-color: aqua;
+	}
+
+	#sek3 div {
+		width: 98%;
+	}
+}
