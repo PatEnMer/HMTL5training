@@ -1,13 +1,11 @@
 @import url('reset.css');
 
 html {
+	background: #ffc107 url('img/tlo.jpg') fixed no-repeat;
+	background-size: contain;
 	font-size: 62.5%;
 	font-family: 'Playfair Display', serif;
 	color: #48504e;
-}
-
-body {
-	background-color: #ffc107;
 }
 
 .orange {
