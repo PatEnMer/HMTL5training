@@ -95,3 +95,10 @@ em {
 header {
 	display: none;
 }
+
+.menu {
+	background: url('img/menu.svg') right no-repeat;
+	margin: 1rem;
+	height: 3.2rem;
+	display: block;
+}
