@@ -26,6 +26,7 @@ h1 {
 	padding: 3.5rem;
 	margin: 4.0rem;
 	display: inline-block;
+	border-top-left-radius: 2rem;
 }
 
 h2 {
@@ -60,6 +61,39 @@ footer p {
 	color: #d4d4d3;
 }
 
+strong {
+	font-weight: bold;
+}
+
+em {
+	background-color: rgba(255, 255, 255, .8);
+}
+
 .summary {
 	font-size: 2.4rem;
+	font-style: italic;
+}
+
+.dot {
+	width: 1rem;
+	height: 1rem;
+	background-color: #48504e;
+	margin: 1rem auto;
+	border-radius: 2rem;
+}
+
+.deleted {
+	text-decoration: line-through;
+}
+
+.button-more {
+	display: inline-block;
+	border: 1px dashed #000000;
+	font-size: 3rem;
+	padding: 1rem 1.5rem;
+	text-decoration: none;
+}
+
+header {
+	display: none;
 }
